@@ -22,10 +22,10 @@ int main(void)
 		{
 			a = c[i];
 			_putchar(a);
-			i++
+			i++;
 		}
 		_putchar('\n');
-		return(0);
+		return (0);
 }
 int _putchar(char c)
 
