@@ -14,23 +14,20 @@
 
 int main(void)
 {
-	char c[8] = "_putchar";
+	char ch[8] = "_putchar";
 		int i = 0;
-		char a;
+		char c;
 
 		while (i <= 8)
 		{
-			a = c[i];
-			_putchar(a);
+			c = ch[i];
+			_putchar(c);
 			i++;
 		}
 		_putchar('\n');
 		return (0);
 }
 int _putchar(char c)
-
 {
-
 		return (write(1, &c, 1));
-
 }
