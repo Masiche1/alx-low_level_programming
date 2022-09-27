@@ -9,8 +9,7 @@
  */                                                                                                                                       
 void print_diagsums(int *a, int size)
 {
-	int a[i][j];
-	int a[i][j] = int*;
+	int i, j;
 	sum1 = 0;
 	sum2 = 0;
 
